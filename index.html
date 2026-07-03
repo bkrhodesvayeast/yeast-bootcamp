@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yeast Bioengineering Summer Bootcamp</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand">Yeast<span>Bio</span>Bootcamp</div>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="files.html">Files</a></li>
+    <li><a href="weblinks.html">Weblinks</a></li>
+    <li><a href="lectures.html">Lectures</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <img src="images/hero-flask.jpg" alt="Glowing yeast culture in an Erlenmeyer flask"
+       onerror="this.style.display='none'; document.getElementById('hero-fallback').style.display='flex';">
+  <div id="hero-fallback" class="hero-fallback">
+    <div class="flask-glow"></div>
+    <p>Hero photo not found yet.<br>Add your image as <code>images/hero-flask.jpg</code>.</p>
+  </div>
+  <div class="hero-overlay">
+    <h1>Yeast Bioengineering Summer Bootcamp</h1>
+    <p>A hands-on summer program in synthetic biology and metabolic engineering using
+       <em>Saccharomyces cerevisiae</em> as the chassis organism.</p>
+  </div>
+</div>
+
+<main>
+  <section class="block">
+    <h2>// about</h2>
+    <p>
+      This bootcamp introduces students to yeast as a platform for synthetic biology:
+      strain engineering, plasmid design, fermentation, and pathway construction.
+      Use the menu above to find course files, external reference links, and the
+      lecture schedule.
+    </p>
+  </section>
+
+  <section class="block">
+    <h2>// quick links</h2>
+    <div class="card-list">
+      <div class="card">
+        <div class="title">Course Files <small>Protocols, datasets, plasmid maps</small></div>
+        <a href="files.html">Browse →</a>
+      </div>
+      <div class="card">
+        <div class="title">Weblinks <small>Databases, tools, and reference sites</small></div>
+        <a href="weblinks.html">Browse →</a>
+      </div>
+      <div class="card">
+        <div class="title">Lectures <small>Schedule and slide decks</small></div>
+        <a href="lectures.html">Browse →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Yeast Bioengineering Summer Bootcamp — hosted on GitHub Pages
+</footer>
+
+</body>
+</html>

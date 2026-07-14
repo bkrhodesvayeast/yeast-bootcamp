@@ -179,8 +179,8 @@ section.block h2 {
 }
 
 .card {
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
+  background: #007700;
+  border: 1px solid #007700;
   border-radius: 8px;
   padding: 16px 18px;
   display: flex;
@@ -190,8 +190,8 @@ section.block h2 {
   flex-wrap: wrap;
 }
 
-.card .meta { color: var(--text-dim); font-size: 0.85rem; }
-.card .title { font-weight: 600; color: var(--text); }
+.card .meta { color: #eafff0; font-size: 0.85rem; }
+.card .title { font-weight: 700; color: #ffffff; }
 .card .title small { display: block; font-weight: 400; color: var(--text-dim); font-size: 0.85rem; margin-top: 2px; }
 
 .tag {
